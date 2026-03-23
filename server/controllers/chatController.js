@@ -7,7 +7,7 @@ export const saveChat = async (req, res) => {
     const chat = new Chat({ prompt, response });
     await chat.save();
 
-    res.json({ message: "Saved successfully ✅" });
+    res.json({ message: "Saved successfully" });
 
   } catch (error) {
     res.status(500).json({ message: "Save Error" });
