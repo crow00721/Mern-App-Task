@@ -98,9 +98,9 @@ import ReactFlow, { addEdge, Background, Controls } from "reactflow";
 import "reactflow/dist/style.css";
 import InputNode from "./components/InputNode.jsx";
 import ResultNode from "./components/ResultNode.jsx";
-import SendButton from "./components/SendButton.jsx";
-import SaveButton from "./components/SaveButton.jsx";
-import { askAI, saveChat } from "./services/api";
+import SendButton from "./components/Sendbutton.jsx";
+import SaveButton from "./components/Savebutton.jsx";
+
 
 const nodeTypes = {
   inputNode: InputNode,
