@@ -67,3 +67,5 @@ Body:
   "prompt": "Hello AI"
 }
 ```
+Note :
+if the error shown like this  "Error: Could not get a response." ,Just check the beowser console it ahows 429 error coee it means free AI model receives too many requests.Try again 2 or 3 min later it will properly work
